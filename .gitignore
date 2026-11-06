@@ -1,0 +1,56 @@
+# ---- 环境变量与密钥（切勿提交） ----
+.env
+.env.*
+*.env
+!.env.example
+
+# ---- Python 编译产物 ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- 虚拟环境 ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- 测试与工具缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ---- 数据与向量库（体积大且可重建） ----
+chroma/
+chromadb/
+vector_store/
+vector_db/
+faiss_index/
+*.faiss
+*.index
+*.db
+*.sqlite
+*.sqlite3
+data/
+documents/
+uploads/
+
+# ---- 日志与临时文件 ----
+*.log
+logs/
+tmp/
+.DS_Store
+Thumbs.db
