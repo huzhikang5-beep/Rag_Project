@@ -67,7 +67,7 @@ pip install langchain-mineru ollama
 复制模板并填入真实密钥（`.env` 已被 `.gitignore` 排除，不会提交）：
 
 ```bash
-cp .env.example .env
+cp .env .env
 ```
 
 | 变量 | 说明 |

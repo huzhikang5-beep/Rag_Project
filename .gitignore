@@ -1,8 +1,7 @@
 # ---- 环境变量与密钥（切勿提交） ----
 .env
-.env.*
 *.env
-!.env.example
+!.env
 
 # ---- Python 编译产物 ----
 __pycache__/
