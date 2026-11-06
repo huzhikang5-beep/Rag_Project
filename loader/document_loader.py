@@ -3,7 +3,9 @@
 """
 from langchain_community.document_loaders import UnstructuredMarkdownLoader
 from langchain_mineru import MinerULoader
+from utils import setup_logger
 
+logger = setup_logger(__name__)
 
 class DocumentLoader:
     def __init__(self,file_path):

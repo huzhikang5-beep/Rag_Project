@@ -3,7 +3,7 @@
 """
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
-from until.config import embeddings_model_name
+from utils.config import embeddings_model_name
 
 embeddings = OllamaEmbeddings(
     model=embeddings_model_name

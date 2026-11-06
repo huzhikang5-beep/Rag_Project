@@ -1,7 +1,8 @@
 # ---- 环境变量与密钥（切勿提交） ----
 .env
+.env.*
 *.env
-!.env
+!.env.example
 
 # ---- Python 编译产物 ----
 __pycache__/
@@ -35,6 +36,7 @@ ENV/
 # ---- 数据与向量库（体积大且可重建） ----
 chroma/
 chromadb/
+chroma_data/
 vector_store/
 vector_db/
 faiss_index/
@@ -46,6 +48,7 @@ faiss_index/
 data/
 documents/
 uploads/
+tmp_upload/
 
 # ---- 日志与临时文件 ----
 *.log
